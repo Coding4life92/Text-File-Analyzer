@@ -8,10 +8,6 @@
 #include <string.h>
 #include "hashtable.h"
 
-// A prime number used as a multiplier in the hash function.
-// Using primes helps in distributing keys more uniformly.
-#define HASH_MULTIPLIER 31
-
 /**
  * @brief The djb2 hash function.
  * A simple and effective string hashing algorithm.
